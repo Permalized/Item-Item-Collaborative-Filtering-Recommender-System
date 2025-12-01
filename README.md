@@ -12,7 +12,7 @@ The objective of this project is to:
 - Evaluate the system using standard recommendation metrics
 - Compare performance across multiple experimental setups
 
-### 🧮 Prediction Functions
+# 🧮 Prediction Functions
 
 Given a user **u**, a target movie **i**, and a number of neighbors **N**, the system retrieves the **N most similar items** (based on Pearson similarity) that **user u has already rated**.
 
