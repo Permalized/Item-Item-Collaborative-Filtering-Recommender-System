@@ -1,6 +1,3 @@
-# Python-Recommender-System
-A recommender system developed in python for a university assignment in Knowledge Discovery from Databases course located in 7th semester
-
 # Item–Item Collaborative Filtering Recommender System
 A complete implementation and evaluation of an item–item collaborative filtering movie recommender system using the Pearson correlation coefficient as the similarity measure.
 The project uses the MovieLens 100k Dataset and evaluates four different rating-prediction functions across multiple experiments.
@@ -17,7 +14,7 @@ The objective of this project is to:
 
 ### 🧮 Prediction Functions
 
-Given a user *u*, a target movie *i*, and a number of neighbors *N*, the system retrieves the *N most similar items* (based on Pearson similarity) that *user u has already rated*.
+Given a user **u**, a target movie **i**, and a number of neighbors **N**, the system retrieves the **N most similar items** (based on Pearson similarity) that **user u has already rated**.
 
 Four prediction functions are implemented:
 
@@ -48,8 +45,8 @@ A classic weighted mean where weights = Pearson similarity.
 
 The dataset is randomly divided into:
 
-80% Training set
-20% Testing set
+**- 80% Training set
+- 20% Testing set**
 
 ### Evaluation Metrics
 
